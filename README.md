@@ -14,5 +14,5 @@ If I were to have more time, I could have figured it out, but I believe you will
 
 Please, note that each page of the worksheet has a given name which is a year (2018, 219, etc). I used each tab name in a text format, and put the start date as :Ws name + "0102", and end date as: Ws name + "1231". This way will allow the macro to run and work in every single sheet. 
 
-There is a word document for you to see the final product per tab, as requested on the challenge.
+There are 3 files in my repository that has all 3 modules codes, as well as a word document for you to see the final product per tab, as requested on the challenge.
 
