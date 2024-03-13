@@ -6,8 +6,11 @@ This repository contains challenge 2, which contains a list of stocks by ticker,
    Instructions to run macros:
 In Visual Basic menu, you will find 3 different modules to run. Please, run them in order (Part1, Part2 and Part3)
 1. First module will produce titles for a summary page, will get the unique ticker names and their total volume.
-2. Second module will calculate the yearly change (Dec 31 compared to Jan 2) variance as well as the percentage of variance (same period).
-3. Third module will calculate a second summary page that has the greater values of all 3 columns (year change, variance in percentage and total volume).
+   Note: There was an issue whe getting the total volume per ticket, as the total volume often exceeded the range allowance of double variable. I googled it and found LongPtr function for long numbers.
+   
+3. Second module will calculate the yearly change (Dec 31 compared to Jan 2) variance as well as the percentage of variance (same period).
+4. Third module will calculate a second summary page that has the greater values of all 3 columns (year change, variance in percentage and total volume).
+   Note: The column "K" should have a % format. I found the code for it Format(percent_change, "#.##%") and I indicated the name of the website on my VB comments.
 
 Due to my lack of expertise in working on one terminal all at once, I decided to take it into parts, so that I could make sure things were working correctly and if they weren't, then I could address the issue easily.
 If I were to have more time, I could have figured it out, but I believe you will be satisfied with the results.
